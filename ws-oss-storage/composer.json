@@ -1,0 +1,20 @@
+{
+    "name": "winstor/ws-oss-storage",
+    "description": "ws oss",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Winstor\\WsOSS\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Winstor\\WsOSS\\WsOssServiceProvider"
+            ]
+        }
+    }
+}
